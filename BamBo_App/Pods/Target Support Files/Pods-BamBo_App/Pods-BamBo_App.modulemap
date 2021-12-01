@@ -1,0 +1,6 @@
+framework module Pods_BamBo_App {
+  umbrella header "Pods-BamBo_App-umbrella.h"
+
+  export *
+  module * { export * }
+}
