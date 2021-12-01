@@ -310,11 +310,6 @@
 			isa = PBXGroup;
 			children = (
 				CFBC420C23EEFC9D0055FCEF /* FLImageView */,
-				CFBC420B23EEFC960055FCEF /* ImageScrollView */,
-				CFBC420A23EEFC8F0055FCEF /* CollectionViewTagLayout */,
-				CFBC420923EEFC850055FCEF /* TabScroll */,
-				CFBC420823EEFC7E0055FCEF /* Pickle */,
-				CFBC420723EEFC770055FCEF /* ImageCroper */,
 				CFBC420623EEFC6A0055FCEF /* NICore */,
 				CFBC420523EEFC620055FCEF /* NIAttributedLabel */,
 			);
@@ -567,41 +562,6 @@
 				CFD6B9EB23F198F500E50215 /* UIResponder+NimbusCore.m */,
 			);
 			path = NICore;
-			sourceTree = "<group>";
-		};
-		CFBC420723EEFC770055FCEF /* ImageCroper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ImageCroper;
-			sourceTree = "<group>";
-		};
-		CFBC420823EEFC7E0055FCEF /* Pickle */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pickle;
-			sourceTree = "<group>";
-		};
-		CFBC420923EEFC850055FCEF /* TabScroll */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TabScroll;
-			sourceTree = "<group>";
-		};
-		CFBC420A23EEFC8F0055FCEF /* CollectionViewTagLayout */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewTagLayout;
-			sourceTree = "<group>";
-		};
-		CFBC420B23EEFC960055FCEF /* ImageScrollView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ImageScrollView;
 			sourceTree = "<group>";
 		};
 		CFBC420C23EEFC9D0055FCEF /* FLImageView */ = {

@@ -12,6 +12,6 @@ class FeedViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "NewFeeds"
     }
 }
