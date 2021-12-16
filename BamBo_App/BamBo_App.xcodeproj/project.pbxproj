@@ -92,6 +92,17 @@
 		CFD6BA5623F19CCD00E50215 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD6BA5523F19CCC00E50215 /* String+Extension.swift */; };
 		CFD6BA5A23F1A62200E50215 /* SettingTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD6BA5923F1A62200E50215 /* SettingTextManager.swift */; };
 		CFED637B23FE909F005C7568 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED637A23FE909F005C7568 /* FeedViewController.swift */; };
+		F605F476275751CE0031F672 /* BaseFeedSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605F475275751CE0031F672 /* BaseFeedSectionModel.swift */; };
+		F605F478275752240031F672 /* Ultilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605F477275752240031F672 /* Ultilities.swift */; };
+		F605F47C275752AE0031F672 /* EnumFeedDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605F47B275752AE0031F672 /* EnumFeedDefine.swift */; };
+		F605F47E275755150031F672 /* FeedSectionSeparatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605F47D275755150031F672 /* FeedSectionSeparatorModel.swift */; };
+		F605F480275755580031F672 /* DeviceSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605F47F275755580031F672 /* DeviceSupport.swift */; };
+		F605F482275755E60031F672 /* FeedSectionSecparatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605F481275755E60031F672 /* FeedSectionSecparatorCollectionViewCell.swift */; };
+		F605F484275757550031F672 /* FeedHeaderInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605F483275757550031F672 /* FeedHeaderInfoModel.swift */; };
+		F6A09810276AE17200829FC1 /* PostFeedSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0980F276AE17200829FC1 /* PostFeedSectionController.swift */; };
+		F6A09812276AE27400829FC1 /* PostFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A09811276AE27400829FC1 /* PostFeedCollectionViewCell.swift */; };
+		F6A09816276AE46500829FC1 /* PostFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A09815276AE46500829FC1 /* PostFeedDetailViewController.swift */; };
+		F6A09818276AEA8E00829FC1 /* ImageAndTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A09817276AEA8E00829FC1 /* ImageAndTitleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -217,6 +228,17 @@
 		CFD6BA5523F19CCC00E50215 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		CFD6BA5923F1A62200E50215 /* SettingTextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTextManager.swift; sourceTree = "<group>"; };
 		CFED637A23FE909F005C7568 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F605F475275751CE0031F672 /* BaseFeedSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFeedSectionModel.swift; sourceTree = "<group>"; };
+		F605F477275752240031F672 /* Ultilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultilities.swift; sourceTree = "<group>"; };
+		F605F47B275752AE0031F672 /* EnumFeedDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFeedDefine.swift; sourceTree = "<group>"; };
+		F605F47D275755150031F672 /* FeedSectionSeparatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSectionSeparatorModel.swift; sourceTree = "<group>"; };
+		F605F47F275755580031F672 /* DeviceSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSupport.swift; sourceTree = "<group>"; };
+		F605F481275755E60031F672 /* FeedSectionSecparatorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSectionSecparatorCollectionViewCell.swift; sourceTree = "<group>"; };
+		F605F483275757550031F672 /* FeedHeaderInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedHeaderInfoModel.swift; sourceTree = "<group>"; };
+		F6A0980F276AE17200829FC1 /* PostFeedSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedSectionController.swift; sourceTree = "<group>"; };
+		F6A09811276AE27400829FC1 /* PostFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6A09815276AE46500829FC1 /* PostFeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedDetailViewController.swift; sourceTree = "<group>"; };
+		F6A09817276AEA8E00829FC1 /* ImageAndTitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndTitleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +386,8 @@
 				CFD6BA2B23F19A2000E50215 /* AppConfig.swift */,
 				CFD6BA2C23F19A2000E50215 /* AppInfo.swift */,
 				CFD6BA2D23F19A2000E50215 /* Dimension.swift */,
+				F605F477275752240031F672 /* Ultilities.swift */,
+				F605F47F275755580031F672 /* DeviceSupport.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -392,7 +416,10 @@
 		CF3CFE2E23EEB4D000146540 /* NewFeeds */ = {
 			isa = PBXGroup;
 			children = (
-				CFED637A23FE909F005C7568 /* FeedViewController.swift */,
+				F6A09813276AE43B00829FC1 /* FeedDetails */,
+				F6A0980D276AE12A00829FC1 /* Sections */,
+				F605F46F27574F910031F672 /* Common */,
+				F605F4792757526C0031F672 /* NewsFeed */,
 			);
 			path = NewFeeds;
 			sourceTree = "<group>";
@@ -575,6 +602,108 @@
 			path = FLImageView;
 			sourceTree = "<group>";
 		};
+		F605F46F27574F910031F672 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F605F47427574FD60031F672 /* BaseModel */,
+				F605F47327574FCE0031F672 /* SectionSeparator */,
+				F605F47227574FC80031F672 /* HeaderInfo */,
+				F605F47127574FC10031F672 /* StatusMessage */,
+				F605F47027574FBA0031F672 /* LikeShare */,
+				F605F47B275752AE0031F672 /* EnumFeedDefine.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F605F47027574FBA0031F672 /* LikeShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LikeShare;
+			sourceTree = "<group>";
+		};
+		F605F47127574FC10031F672 /* StatusMessage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StatusMessage;
+			sourceTree = "<group>";
+		};
+		F605F47227574FC80031F672 /* HeaderInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F605F483275757550031F672 /* FeedHeaderInfoModel.swift */,
+			);
+			path = HeaderInfo;
+			sourceTree = "<group>";
+		};
+		F605F47327574FCE0031F672 /* SectionSeparator */ = {
+			isa = PBXGroup;
+			children = (
+				F605F47D275755150031F672 /* FeedSectionSeparatorModel.swift */,
+				F605F481275755E60031F672 /* FeedSectionSecparatorCollectionViewCell.swift */,
+			);
+			path = SectionSeparator;
+			sourceTree = "<group>";
+		};
+		F605F47427574FD60031F672 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				F605F475275751CE0031F672 /* BaseFeedSectionModel.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		F605F4792757526C0031F672 /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F605F47A2757528E0031F672 /* Controller */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		F605F47A2757528E0031F672 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFED637A23FE909F005C7568 /* FeedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6A0980D276AE12A00829FC1 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0980E276AE13300829FC1 /* PostFeed */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		F6A0980E276AE13300829FC1 /* PostFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0980F276AE17200829FC1 /* PostFeedSectionController.swift */,
+				F6A09811276AE27400829FC1 /* PostFeedCollectionViewCell.swift */,
+				F6A09817276AEA8E00829FC1 /* ImageAndTitleCollectionViewCell.swift */,
+			);
+			path = PostFeed;
+			sourceTree = "<group>";
+		};
+		F6A09813276AE43B00829FC1 /* FeedDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F6A09814276AE44E00829FC1 /* PostFeedDetail */,
+			);
+			path = FeedDetails;
+			sourceTree = "<group>";
+		};
+		F6A09814276AE44E00829FC1 /* PostFeedDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F6A09815276AE46500829FC1 /* PostFeedDetailViewController.swift */,
+			);
+			path = PostFeedDetail;
+			sourceTree = "<group>";
+		};
 		FC467142CDFF5DA4773EDC29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -721,6 +850,7 @@
 				CF2DC4CF23FF69D80057D3FE /* BaseShimmerView.swift in Sources */,
 				CF8E13A023FFD32D00A9D1D9 /* EmptyView.swift in Sources */,
 				CF2DC4CD23FF69B60057D3FE /* ShimmerImageView.swift in Sources */,
+				F605F484275757550031F672 /* FeedHeaderInfoModel.swift in Sources */,
 				CFD6BA0523F198F700E50215 /* NINonEmptyCollectionTesting.m in Sources */,
 				CFD6BA2023F199AF00E50215 /* UINavigationController+Extension.swift in Sources */,
 				CFD6BA0D23F198F700E50215 /* NIOperations.m in Sources */,
@@ -736,6 +866,7 @@
 				CFD6BA5023F19BC000E50215 /* UserSessionManager.swift in Sources */,
 				CFD6BA1423F198F700E50215 /* NIError.m in Sources */,
 				CFD6BA5A23F1A62200E50215 /* SettingTextManager.swift in Sources */,
+				F6A09810276AE17200829FC1 /* PostFeedSectionController.swift in Sources */,
 				CFD6BA2423F199CD00E50215 /* UIFont+Extension.swift in Sources */,
 				CF24188923F24BB800111C23 /* UIView+Extension.swift in Sources */,
 				CFD6BA0623F198F700E50215 /* NIInMemoryCache.m in Sources */,
@@ -744,8 +875,10 @@
 				CFD6BA2323F199CD00E50215 /* UIColor+Extension.swift in Sources */,
 				CF8E13A223FFD82500A9D1D9 /* BageButton.swift in Sources */,
 				CF3BA0092400193100FCB31B /* UIApplication+Exension.swift in Sources */,
+				F605F476275751CE0031F672 /* BaseFeedSectionModel.swift in Sources */,
 				CF3E35AB23EFA2FD0083058C /* ImageManager.swift in Sources */,
 				CFD6BA3823F19A7600E50215 /* NetworkLogger.swift in Sources */,
+				F605F480275755580031F672 /* DeviceSupport.swift in Sources */,
 				CFD6BA4023F19AA000E50215 /* BaseTableViewCell.swift in Sources */,
 				CFD6BA0223F198F700E50215 /* NIState.m in Sources */,
 				CFD6BA0B23F198F700E50215 /* NICommonMetrics.m in Sources */,
@@ -754,28 +887,33 @@
 				CFD6BA4223F19AA800E50215 /* BaseCollectionViewCel.swift in Sources */,
 				CF1E039823FEDA120015257D /* BaseCollectionViewHeaderFooterCell.swift in Sources */,
 				CF2DC4D123FF6A0A0057D3FE /* BaseView.swift in Sources */,
+				F605F478275752240031F672 /* Ultilities.swift in Sources */,
 				CF3BA007240018F800FCB31B /* Notification+Extension.swift in Sources */,
 				CFA1F516245DD01200B592F8 /* AlertManager.swift in Sources */,
 				CF2E683723F29DB000BDC724 /* AppRouter.swift in Sources */,
 				CFD6BA1023F198F700E50215 /* NIFoundationMethods.m in Sources */,
+				F605F47C275752AE0031F672 /* EnumFeedDefine.swift in Sources */,
 				CFD6BA4B23F19AFD00E50215 /* CGFloat+Additions.swift in Sources */,
 				CF2DC4D323FF6A7F0057D3FE /* BaseShimmerProtocol.swift in Sources */,
 				CFD6BA0823F198F700E50215 /* NISnapshotRotation.m in Sources */,
 				CFD6BA5223F19C3600E50215 /* UICollectionView+Extension.swift in Sources */,
 				CFD6BA5623F19CCD00E50215 /* String+Extension.swift in Sources */,
 				CF1BA0A7240107870072B9E1 /* TitleTextField.swift in Sources */,
+				F605F482275755E60031F672 /* FeedSectionSecparatorCollectionViewCell.swift in Sources */,
 				CF8E13B323FFDA1600A9D1D9 /* JSON+Parser.swift in Sources */,
 				CFD6BA3723F19A7600E50215 /* APIConfig.swift in Sources */,
 				CFD6BA3623F19A7600E50215 /* APIService.swift in Sources */,
 				CFD6BA3A23F19A7600E50215 /* APIResponse.swift in Sources */,
 				CFD6BA2823F199E200E50215 /* UIViewController+Extenstion.swift in Sources */,
 				CFED637B23FE909F005C7568 /* FeedViewController.swift in Sources */,
+				F6A09812276AE27400829FC1 /* PostFeedCollectionViewCell.swift in Sources */,
 				CF2DC4D723FF712E0057D3FE /* ShimmerLabel.swift in Sources */,
 				CF3BA00B24001A0100FCB31B /* Array+Extension.swift in Sources */,
 				CFD6BA3923F19A7600E50215 /* ServiceErrorAPI.swift in Sources */,
 				CFD6BA0123F198F700E50215 /* NIRuntimeClassModifications.m in Sources */,
 				CF24188B23F24C1700111C23 /* GradientPoint.swift in Sources */,
 				CFD6BA2F23F19A2000E50215 /* AppInfo.swift in Sources */,
+				F605F47E275755150031F672 /* FeedSectionSeparatorModel.swift in Sources */,
 				CF8E13AF23FFD9C700A9D1D9 /* Photo.swift in Sources */,
 				CFD6BA4A23F19AFD00E50215 /* CGSize+Extension.swift in Sources */,
 				CF2E682A23F2986700BDC724 /* Date+Extension.swift in Sources */,
@@ -787,11 +925,13 @@
 				CFD6BA3C23F19A7B00E50215 /* EndPointType.swift in Sources */,
 				CFD6BA0C23F198F700E50215 /* NIActions.m in Sources */,
 				CFBC427A23EF10560055FCEF /* BaseViewModel.swift in Sources */,
+				F6A09818276AEA8E00829FC1 /* ImageAndTitleCollectionViewCell.swift in Sources */,
 				CF2DC4D523FF6E5A0057D3FE /* UIImageView+Extension.swift in Sources */,
 				CF3BA005240016FE00FCB31B /* UIImage+Extension.swift in Sources */,
 				CF8E139C23FFD2AA00A9D1D9 /* EmptyCollectionViewCell.swift in Sources */,
 				CFD6BA1223F198F700E50215 /* NIPaths.m in Sources */,
 				CFD6BA0423F198F700E50215 /* NIButtonUtilities.m in Sources */,
+				F6A09816276AE46500829FC1 /* PostFeedDetailViewController.swift in Sources */,
 				CF1E039C23FEDCF10015257D /* ShopTextManager.swift in Sources */,
 				CF2E683423F29C9600BDC724 /* NSMutableAttributedString+NimbusAttributedLabel.m in Sources */,
 				CF8E13B123FFD9E200A9D1D9 /* Comment.swift in Sources */,
